@@ -18,7 +18,7 @@ const skills = {
 const projects = [
   {
     title: 'Paytm-project : Paytm-like Payment Platform',
-    link: 'Project Link',
+    link: 'https://payments-app-dusky.vercel.app/',
     description: [
       'Developed a secure payment platform with wallet management and recharge services.',
       'Built a robust backend using Node.js, Express.js with JWT authentication.',
@@ -31,7 +31,7 @@ const projects = [
   },
   {
     title: 'Course Selling App : MERN Stack Online Course Platform',
-    link: 'Project Link',
+    link: 'https://course-selling-website-iyag.vercel.app/',
     description: [
       'Enhanced a MERN stack web application for browsing, purchasing, and managing online courses.',
       'Designed a responsive frontend using React.js and Bootstrap for an intuitive user experience.',
@@ -60,8 +60,8 @@ export default function Home() {
     threshold: 0.1,
   });
 
-  // Replace this with your Google Drive PDF link
-  const resumeUrl = "YOUR_GOOGLE_DRIVE_PDF_LINK";
+  // Google Drive embedded preview link
+  const resumeUrl = "https://drive.google.com/file/d/18512h5REvJXN-Z9HBkCb63sH--1J9kWH/preview";
 
   return (
     <>
@@ -96,7 +96,7 @@ export default function Home() {
                   G RAMA KRISHNA REDDY
                 </h1>
                 <h2 className="text-xl md:text-2xl font-bold text-blue-500 mt-4 perspective-text">
-                  Full Stack Developer | MERN Stack Enthusiast | Exploring DevOps & AWS
+                  Full Stack Developer | DevOps & AWS Enthusiast
                 </h2>
                 <p className="text-lg text-gray-300 mt-4 max-w-2xl mx-auto">
                   Passionate about building scalable, efficient web applications and learning new technologies
@@ -117,7 +117,7 @@ export default function Home() {
                 </button>
                 <div className="flex items-center gap-6">
                   <motion.a
-                    href="https://github.com/yourusername"
+                    href="https://github.com/Ramakrishnareddy380"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-400 transition-colors"
@@ -127,7 +127,7 @@ export default function Home() {
                     <FaGithub className="w-7 h-7" />
                   </motion.a>
                   <motion.a
-                    href="https://linkedin.com/in/yourusername"
+                    href="https://www.linkedin.com/in/rama-krishna-reddy-34a979228/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gray-600 dark:text-gray-400 hover:text-blue-400 transition-colors"

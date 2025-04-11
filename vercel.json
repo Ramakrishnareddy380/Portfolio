@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "regions": ["bom1"],
+  "builds": [
+    {
+      "src": "next.config.js",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "NEXT_PUBLIC_VERCEL_URL": "${VERCEL_URL}"
+  },
+  "git": {
+    "deploymentEnabled": {
+      "main": true
+    }
+  }
+} 
